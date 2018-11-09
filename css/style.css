@@ -6,11 +6,12 @@
 }
 
 html {
+  height: 100%;
   scroll-behavior: smooth;
 }
 
 body {
-  /* height: 1500px; */
+  height: 100%;
   background: linear-gradient(-120deg, rgb(29, 145, 195), rgb(33, 200, 200));
 }
 
@@ -95,13 +96,14 @@ body {
 
 
 #top {
+  height: 40%;
+  overflow: hidden;
   position: sticky;
   z-index: 1;
 }
 
 #top-video {
-  height: 200px;
-  overflow: hidden;
+
 }
 
 #top-video video {
