@@ -27,7 +27,7 @@ body {
 }
 
 #header-top:hover {
-  background-color: rgba(141, 150, 161, 0.7);
+  background-color: rgba(141, 150, 161, 0.5);
   transition: 1s;
 }
 
@@ -35,7 +35,7 @@ body {
   margin: 12px 0;
   margin-left: 12px;
   /* height: 66%; */
-  width: 100%;
+  width: 70%;
 
   /* filter: grayscale(100); */
   filter: brightness(0%);
@@ -70,7 +70,9 @@ body {
 
 
 #header-list ul li {
-  padding-left: 10%;
+  font-family: 'KoHo', sans-serif;
+  font-weight: normal;
+  padding-left: 5%;
   float: left;
   list-style: none;
 }
@@ -81,14 +83,14 @@ body {
 
   transition: 0.6s;
   letter-spacing: 0px;
-  margin: 0 16px;
+  padding: 0 10px;
 }
 
 #header-list ul li a:hover {
   transition: 0.3s;
   letter-spacing: 2px;
-  margin: -4px -3px;
-  padding: 4px 12px;
+  margin: -4px -10px;
+  padding: 4px 10px;
   /* color: rgb(183, 194, 60); */
   color: rgb(171, 182, 53);
   background-color: rgba(255, 255, 255, 1);
