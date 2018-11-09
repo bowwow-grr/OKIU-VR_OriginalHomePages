@@ -12,7 +12,9 @@ html {
 
 body {
   height: 100%;
-  background: linear-gradient(-120deg, rgb(29, 145, 195), rgb(33, 200, 200));
+  /* background: linear-gradient(-120deg, rgb(29, 145, 195), rgb(33, 200, 200)); */
+  /* background: linear-gradient(to right, #000046, #1cb5e0); */
+  background: linear-gradient(to right, #1C98C3, #14b5cc);
 }
 
 #header-top {
@@ -26,7 +28,7 @@ body {
 }
 
 #header-top:hover {
-  background-color: rgba(141, 150, 161, 0.5);
+  background-color: rgba(134, 153, 179, 0.6);
   transition: 1s;
 }
 
@@ -37,14 +39,14 @@ body {
   width: 70%;
 
   /* filter: grayscale(100); */
-  filter: brightness(0%);
+  filter: brightness(100%);
   transition: .5s;
 }
 
 #header-logo img:hover {
   /* filter: grayscale(0); */
-  filter: brightness(100%);
-  transition: .2s;
+  filter: brightness(0%);
+  transition: .6s;
 }
 
 #header-list {
@@ -86,6 +88,7 @@ body {
 }
 
 #header-list ul li a:hover {
+  font-weight: bolder;
   transition: 0.3s;
   letter-spacing: 2px;
   margin: -4px -10px;
@@ -113,7 +116,7 @@ body {
 }
 
 #top-video img {
-  /* margin-top: -100px; */
+  margin-top: -100px;
 }
 
 
@@ -136,5 +139,5 @@ footer {
 
   margin-top: 10px;
 
-  background-color: rgb(108, 83, 113);
+  background-color: rgb(96, 94, 187);
 }
