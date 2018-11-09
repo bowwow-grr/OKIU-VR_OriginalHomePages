@@ -131,14 +131,15 @@ body {
 
 
 #main-contents {
-  margin-top: 4%;
+
 }
 
 .my-title {
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: -1px;
 
-  margin-top: 20px;
+  /* margin-top: 50px; */
+  margin-top: 7%;
   margin-bottom: 40px;
 
 
