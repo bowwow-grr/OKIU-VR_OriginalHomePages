@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="shortcut icon" href="./icon/logo.ico">
 
-  <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c|Roboto+Condensed|KoHo" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c|Roboto+Condensed|KoHo|Noto+Sans+JP" rel="stylesheet">
 
 </head>
 <body>
@@ -28,7 +28,7 @@
           <li><a href="#introduction">Introduction</a></li>
           <li><a href="#works-movie">Work Movie</a></li>
           <li><a href="#our-team">Our Team</a></li>
-          <li><a href="#now">Now Project</a></li>
+          <li><a href="#now-project">Now Project</a></li>
         </ul>
       </div>
 
@@ -37,51 +37,84 @@
 
   <!-- トップの背景で動画を再生。 -->
   <div id="top">
-    <div id="top-video">
+    <div id="top-img" class="d-none d-sm-block">
       <img src="./imgs/sample.jpg" alt="sample" width="100%;">
       <!-- <video src="./videos/top-back.mp4" autoplay loop></video> -->
     </div>
+
+    <div id="top-img-min" class="d-block d-sm-none">
+      <img src="./imgs/sample.jpg" alt="sample">
+    </div>
+
     <div id="top-contents">
       <!-- キャッチフレーズ文章 -->
-      <h1>Welcome</h1>
-
+      <!-- <h1>Welcome</h1> -->
     </div>
+
     <div id="top-topics">
       <!-- ブログの更新情報をページリロードで直ぐに確認できる -->
       <div class="topic-content">
-
       </div>
     </div>
+
   </div>
 
   <div id="main-contents">
-    <div id="introduction" class="my-title">
-      <!-- 何者かを軽く紹介 -->
-      <h1>Introduction</h1>
-      <p>私達は、沖縄国際大学のVRサークルです。クリエイター同士のコミュニティを広げるために2017年7月に設立しました。サークルとしては若く、先輩も後輩もみんな初心者です。<br><br>絵を描いたり、ゲームを作ったり、Webアプリを開発したり。<br><br>「&emsp;知りたい。教えたい。作ろう。&emsp;」</p>
+
+    <div id="introduction" class="row">
+      <!-- 何者なのかを軽く紹介 -->
+      <h1 class="col-11 mx-auto my-title">Introduction</h1>
+
+      <p class="col-10 mx-auto my-font-style-1">私達は、沖縄国際大学のVRサークルです。<br>クリエイター同士のコミュニティを広げるために2017年7月に設立しました。<br><br>サークルとしては若く、先輩も後輩も誰もが初心者です。<br><br>絵を描いたり、ゲームを作ったり、Webアプリを開発したり。<br><br><span class="my-span-1">『&ensp;知りたい?&ensp;教えたい。作ろう。』</span></p>
     </div>
-    <div id="works-movie" class="my-title">
+
+    <div id="works-movie" class="row">
       <!-- 最近の活動を短いGifコンテンツとして表現 -->
-      <h1>Work Movie</h1>
+      <h1 class="col-11 mx-auto my-title">Work Movie</h1>
       <div class="wm-content">
       </div>
+
+      <br>
+      <br>
+      <p class="col-10 mx-auto my-font-style-1">サンプルだnya~</p>
+      <br>
+      <br>
+
     </div>
-    <div id="our-team" class="my-title">
+
+    <div id="our-team" class="row">
       <!-- どんな人の集まりかを一目で分かるように。 -->
-      <h1>Our Team</h1>
+      <h1 class="col-11 mx-auto my-title">Our Team</h1>
+
+      <br>
+      <br>
+      <p class="col-10 mx-auto my-font-style-1">サンプルだnya~</p>
+      <br>
+      <br>
+
       <div class="ot-content">
       </div>
     </div>
-    <div id="now-project" class="my-title">
+
+    <div id="now-project" class="row">
       <!-- 現在、進行中のプロジェクト -->
-      <h1>Now Project</h1>
+      <h1 class="col-11 mx-auto my-title">Now Project</h1>
+
+      <br>
+      <br>
+      <p class="col-10 mx-auto my-font-style-1">サンプルだnya~</p>
+      <br>
+      <br>
+
       <div class="nopr-content"></div>
+
     </div>
   </div>
 
+
   <footer>
     <p>&copy;2018-OKIU-VR</p>
-    <a href="./sample.html">sample</a>
+    <!-- <a href="./sample.html">sample</a> -->
   </footer>
 
 </body>
