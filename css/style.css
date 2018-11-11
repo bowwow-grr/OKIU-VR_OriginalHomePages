@@ -25,13 +25,13 @@ body {
   /* height: 65px; */
   width: 100%;
 
-  background-color: rgba(88, 88, 88, 0.5);
+  background-color: rgba(113, 113, 113, 0.5);
   transition: 1s;
   z-index: 2;
 }
 
 #header-top:hover {
-  background-color: rgba(134, 153, 179, 0.6);
+  background-color: rgba(134, 158, 190, 0.65);
   transition: 1s;
 }
 
@@ -104,7 +104,7 @@ body {
 
 
 #top {
-  height: 60%;
+  /* height: 60%; */
   position: sticky;
   z-index: 1;
   overflow: hidden;
@@ -112,17 +112,77 @@ body {
 
 #top-img, #top-img-min {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   background-size: cover;
-  filter: brightness(60%);
+  /* filter: brightness(60%); */
 }
 
 #top-img {
-  background-image: url("../imgs/sample.jpg");
+  /* background-image: url("../imgs/sample.jpg"); */
+  /* background: linear-gradient(-120deg, rgb(29, 145, 195), rgb(33, 200, 200)); */
+  background-color: rgb(204, 209, 218);
 }
 
 #top-img-min {
-  background-image: url("../imgs/sample-min.jpg");
+  height: 420px;
+  /* background-image: url("../imgs/sample-min.jpg"); */
+  background: linear-gradient(-120deg, rgb(29, 145, 195), rgb(33, 200, 200));
+}
+
+.topic {
+  /* height: 100%; */
+  /* height: 370px; */
+  height: 420px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 4%;
+  background-size: ;
+  background-repeat: no-repeat;
+  background-image: url("../imgs/topics/topic-2.png");
+}
+
+
+.topic-info {
+  float: right;
+  height: 100%;
+  width: 65%;
+  background-repeat: no-repeat;
+  background-image: url("../imgs/topics/topics-back-3.png");
+
+  padding-left: 10%;
+  padding-right: 3%;
+  padding-top: 5%;
+}
+
+.topic-info span {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.topic-info h1 {
+  padding-top: 20px;
+  font-size: calc(1.2em + .5vw);
+  font-weight: 550;
+}
+
+.topic-info p {
+  padding-top: 30px;
+font-size: calc(.9em + .3vw);
+  font-weight: 550;
+}
+
+.topic-info button {
+  margin-top: 20px;
+  height: 50px;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid white;
+}
+
+.topic-info button a {
+  font-size: 1.2em;
+  font-weight: 550;
+  color: white;
 }
 
 #main-contents {
@@ -137,10 +197,10 @@ body {
 .my-title-1, .my-title-2 {
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: -1px;
-  margin-top: 5%;
+  margin-top: 2%;
   margin-bottom: 40px;
   font-size: calc(1.8em + 3.3vw);
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .my-title-1 {
@@ -151,6 +211,7 @@ body {
 }
 
 .my-title-2 {
+  margin-top: 3%;
   color: rgb(52, 98, 140);
 }
 
@@ -161,7 +222,7 @@ body {
   font-size: calc(.7em + .7vw);
   text-align: center;
   padding-bottom: 60px;
-
+  margin-bottom: 50px;
 }
 
 .my-font-style-1 {
