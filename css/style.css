@@ -263,7 +263,7 @@ body {
 }
 
 #main-contents {
-
+  height: 100%;
 }
 
 .my-title-1, .my-title-2 {
@@ -339,7 +339,7 @@ body {
 .np-info {
   padding: 10%;
   padding-bottom: 6%;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .np-info h1 {
@@ -354,20 +354,53 @@ body {
 }
 
 
+#contact {
+  /* height: 100%; */
+  /* margin-bottom: 15%; */
+}
+
+.contact-contents {
+  /* height: 80%; */
+}
+
+.twitter-timeline {
+  background-color: rgba(36, 36, 36, 0.7);
+}
+
+
+.contact-info {
+  height: 120%;
+  background-color: rgba(36, 36, 36, 0.7);
+  padding: 50px;
+  padding-bottom: 80px;
+}
+
+.contact-info i {
+  padding: 10px;
+  font-size: calc(1em + .4vw);
+  float: left;
+}
+
+.contact-info p {
+  font-size: calc(1em + .4vw);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: normal;
+  padding-left: 40px;
+  padding-right: 20px;
+}
 
 
 
 footer {
+  margin-top: 14%;
   width: 100%;
   height: 30px;
+
   font-size: 1.2em;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   color: white;
   letter-spacing: 1px;
+
   padding: 0 15px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
-
-  margin-top: 10px;
-
-  /* background-color: rgb(96, 94, 187); */
   background-color: rgb(16, 48, 99);
 }
