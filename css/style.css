@@ -67,7 +67,7 @@ body {
 
   /* margin-right: 14px; */
 
-  font-size: calc(.9em + .3vw);
+  font-size: calc(.8em + .3vw);
   /* color: rgb(60, 60, 60); */
   color: rgb(255, 255, 255);
 }
@@ -203,32 +203,32 @@ body {
 }
 
 .topic-info span {
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-weight: 450;
 }
 
 .topic-info-mini span {
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-weight: 450;
 }
 
 .topic-info h1 {
   padding-top: 20px;
-  font-size: calc(1.2em + .5vw);
+  font-size: calc(1.1em + .5vw);
   font-weight: 550;
   font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .topic-info-mini h1 {
   padding-top: 20px;
-  font-size: calc(1em + .7vw);
+  font-size: calc(.9em + .7vw);
   font-weight: 550;
   font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .topic-info p {
   padding-top: 30px;
-  font-size: calc(.8em + .45vw);
+  font-size: calc(.7em + .45vw);
   /* font-weight: 50; */
   font-family: 'M PLUS Rounded 1c', sans-serif;
 }
@@ -236,7 +236,7 @@ body {
 .topic-info-mini p {
   /* padding-top: 30px; */
   padding-top: 6%;
-  font-size: calc(.7em + .8vw);
+  font-size: calc(.6em + .8vw);
   /* font-weight: 50; */
   font-family: 'M PLUS Rounded 1c', sans-serif;
 }
@@ -267,13 +267,13 @@ body {
 }
 
 .topic-info button a {
-  font-size: calc(.8em + .3vw);
+  font-size: calc(.7em + .3vw);
   font-weight: 600;
   color: inherit;
 }
 
 .topic-info-mini button a {
-  font-size: calc(.9em + .3vw);
+  font-size: calc(.8em + .3vw);
   font-weight: 600;
   color: inherit;
 }
@@ -299,7 +299,7 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: -1px;
   margin-bottom: 5%;
-  font-size: calc(2.4em + 3.5vw);
+  font-size: calc(2.2em + 3.3vw);
   font-weight: bolder;
 }
 
@@ -329,8 +329,8 @@ body {
 
 .my-font-style-1, .my-font-style-2, .my-font-style-3 {
   font-family: 'M PLUS Rounded 1c', sans-serif;
-  font-size: .9em;
-  font-size: calc(.85em + .6vw);
+  font-size: .8em;
+  font-size: calc(.75em + .5vw);
   text-align: center;
   padding-bottom: 60px;
   /* margin-bottom: 60px; */
@@ -396,13 +396,13 @@ body {
 
 .np-info h1 {
   text-align: center;
-  font-size: calc(1.2em + .3vw);
+  font-size: calc(1em + .2vw);
 }
 
 .np-info p {
   padding-top: 5%;
   word-wrap: break-word;
-  font-size: calc(.9em + .2vw);
+  font-size: calc(.8em + .15vw);
 }
 
 
@@ -434,7 +434,7 @@ body {
 
 #our-team {
   padding: 0;
-  margin-top: -50px;
+  margin-top: -35px;
   background-color: rgb(255, 255, 255);
 }
 
@@ -491,20 +491,27 @@ body {
   padding-bottom: 80px;
 }
 
-.contact-info i {
+/* .contact-info i {
   padding: 10px;
-  font-size: calc(1em + .4vw);
+  font-size: calc(.85em + .3vw);
   float: left;
-}
+} */
 
 .contact-info p {
-  font-size: calc(1em + .4vw);
+  font-size: calc(.85em + .3vw);
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-weight: normal;
   padding-left: 40px;
   padding-right: 20px;
 }
 
+.contact-info a {
+  color: rgb(250, 208, 27);
+}
+
+.contact-info a:hover {
+  color: rgb(255, 237, 0);
+}
 
 
 footer {
@@ -532,6 +539,6 @@ footer p {
   padding-top: 30px;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   color: white;
-  font-size: 1.2em;
+  font-size: calc(.85em + .3vw);
   letter-spacing: 1px;
 }
