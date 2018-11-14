@@ -347,7 +347,7 @@ body {
 .np-info p {
   padding-top: 5%;
   word-wrap: break-word;
-  font-size: calc(1.1em - .3vw);
+  font-size: calc(1.2em - .35vw);
 }
 
 .edge-waku {
