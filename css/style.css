@@ -261,7 +261,8 @@ body {
   border: 2px solid white;
   border-radius: 40px;
   background-color: rgba(255, 255, 255, 0);
-  color: rgb(230, 230, 230);
+  /* color: rgb(230, 230, 230); */
+  color: rgb(255, 255, 255);
   transition: .4s;
 }
 
@@ -299,28 +300,31 @@ body {
   letter-spacing: -1px;
   margin-bottom: 5%;
   font-size: calc(2.4em + 3.5vw);
-  font-weight: 600;
+  font-weight: bolder;
 }
 
-.my-title-1 {
+.my-title-1, .my-title-1-mini {
   color: white;
 
   /* background: linear-gradient(to right, rgba(221, 213, 34, 0.74), transparent);
   border-radius: 2px; */
 }
 
-.my-title-2 {
+.my-title-2, .my-title-2-mini {
   margin-top: 0;
   padding-top: 4%;
   color: rgb(52, 98, 140);
 }
 
-.my-title-3 {
+.my-title-3, .my-title-3-mini {
   margin-top: 0;
   padding-top: 0;
   color: rgb(52, 98, 140);
 }
 
+.my-title-1-mini, .my-title-2-mini, .my-title-3-mini {
+  font-weight: normal;
+}
 
 
 .my-font-style-1, .my-font-style-2, .my-font-style-3 {
@@ -356,7 +360,12 @@ body {
 
 
 #introduction {
+  padding: 0;
   background: rgb(250, 250, 250);
+}
+
+#now-project {
+  padding: 0 0;
 }
 
 .np-waku {
@@ -398,50 +407,55 @@ body {
 
 
 
+.edge-waku {
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+}
+
 .edge-top {
-  /* margin-top: -9.5%; */
+  margin-top: 50px;
   width: 150%;
   margin-left: -25%;
-  /* height: 100px; */
-  height: 18%;
+  height: 100%;
   background-color: rgb(255, 255, 255);
   transform: rotate(-3deg);
 }
 
 .edge-top-mini {
+  margin-top: 50px;
   width: 150%;
   margin-left: -25%;
-  height: 10%;
+  height: 100%;
   background-color: rgb(255, 255, 255);
-  transform: rotate(-3deg);
+  transform: rotate(-5deg);
 }
 
 
 #our-team {
-  margin-top: -4%;
+  padding: 0;
+  margin-top: -50px;
   background-color: rgb(255, 255, 255);
 }
 
 
 .edge-bottom {
-  margin-top: -5%;
+  margin-top: -100px;
   width: 150%;
   margin-left: -25%;
-  /* height: 80px; */
-  height: 18%;
+  height: 100%;
   background-color: rgb(255, 255, 255);
   transform: rotate(-3deg);
   position: relative;
 }
 
 .edge-bottom-mini {
-  margin-top: -5%;
+  margin-top: -100px;
   width: 150%;
   margin-left: -25%;
-  /* height: 80px; */
-  height: 10%;
+  height: 100%;
   background-color: rgb(255, 255, 255);
-  transform: rotate(-3deg);
+  transform: rotate(-5deg);
   position: relative;
 }
 
@@ -454,6 +468,8 @@ body {
 
 
 #contact {
+  padding: 0;
+  margin-top: -50px;
   /* height: 100%; */
   /* margin-bottom: 15%; */
 }
