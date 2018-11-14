@@ -272,6 +272,7 @@ body {
   font-weight: normal;
   /* padding-top: 24px; */
   padding-bottom: 24px;
+  font-size: calc(2em + 4vw);
 }
 
 
@@ -346,7 +347,7 @@ body {
 .np-info p {
   padding-top: 5%;
   word-wrap: break-word;
-  font-size: calc(.8em + .15vw);
+  font-size: calc(1.1em - .3vw);
 }
 
 .edge-waku {
