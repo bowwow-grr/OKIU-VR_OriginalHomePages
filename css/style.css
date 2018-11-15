@@ -88,7 +88,9 @@ body {
   font-weight: bolder;
   transition: 0.3s;
   letter-spacing: 2px;
-  margin: -4px -10px;
+  /* margin: -4px -10px; */
+  margin-left: -10px;
+  margin-right: -10px;
   padding: 4px 10px;
   color: rgb(171, 182, 53);
   background-color: rgba(255, 255, 255, 1);
