@@ -9,11 +9,14 @@ html {
   height: 100%;
   scroll-behavior: smooth;
 
-  /* background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("../svgs/trianglify (26).svg"); */
+  /* background-image: url("../svgs/trianglify (26).svg"); */
 
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
+
+  background-color: rgba(255, 255, 255, 0);
+
 }
 
 body {
@@ -22,7 +25,7 @@ body {
 
   background-size: cover;
   /* background-repeat: no-repeat; */
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 
   background-image: url("../svgs/trianglify (26).svg") !important;
 
