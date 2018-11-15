@@ -13,7 +13,7 @@ html {
 body {
   height: 100%;
   background-size: cover;
-  background-image: url("../svgs/trianglify (22).svg");
+  background-image: url("../svgs/trianglify (25).svg");
   background-attachment: fixed;
 }
 
@@ -108,7 +108,8 @@ body {
 }
 
 #top-img {
-  background-color: rgb(46, 81, 135);
+  /* background-color: rgb(46, 81, 135); */
+  background-image: url("../svgs/trianglify (25).svg");
 }
 
 #top-img-min {
@@ -347,7 +348,7 @@ body {
 .np-info p {
   padding-top: 5%;
   word-wrap: break-word;
-  font-size: calc(1.2em - .35vw);
+  font-size: calc(1.2em - .25vw);
 }
 
 .edge-waku {
