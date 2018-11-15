@@ -5,20 +5,26 @@
   color: white;
 }
 
-/* html {
+html {
   height: 100%;
   scroll-behavior: smooth;
 
-  background-size: cover;
+  /* background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("../svgs/trianglify (26).svg");
-  background-attachment: fixed;
+  background-image: url("../svgs/trianglify (26).svg"); */
+
+  /* background-attachment: fixed; */
 }
 
 body {
   height: 100%;
-  background-color: rgba(255, 255, 255, 0) !important;
-} */
+  /* background-color: rgba(255, 255, 255, 0) !important; */
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../svgs/trianglify (26).svg") !important;
+
+}
 
 #header-top {
   position: fixed;
