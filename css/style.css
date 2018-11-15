@@ -13,7 +13,7 @@ html {
 body {
   height: 100%;
   background-size: cover;
-  background-image: url("../svgs/trianglify (25).svg");
+  background-image: url("../svgs/trianglify (26).svg");
   background-attachment: fixed;
 }
 
@@ -109,7 +109,7 @@ body {
 
 #top-img {
   /* background-color: rgb(46, 81, 135); */
-  background-image: url("../svgs/trianglify (25).svg");
+  background-image: url("../svgs/trianglify (26).svg");
 }
 
 #top-img-min {
