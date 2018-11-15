@@ -8,25 +8,27 @@
 html {
   height: 100%;
   scroll-behavior: smooth;
-}
 
-body {
-  height: 100%;
-  /* background-size: cover; */
+  background-size: cover;
   background-repeat: no-repeat;
   background-image: url("../svgs/trianglify (26).svg");
   background-attachment: fixed;
 }
 
+body {
+  height: 100%;
+}
+
 #header-top {
-  /* position: fixed;
-  top: 0; */
+  position: fixed;
+  top: 0;
   width: 100%;
   background-color: rgba(134, 158, 190, 0.65);
   transition: 1s;
   z-index: 2;
   margin: 0;
 }
+
 
 #header-top:hover {
   background-color: rgba(113, 113, 113, 0.5);
@@ -124,7 +126,7 @@ body {
   height: 450px;
   width: 80%;
   margin-left: 10%;
-  /* margin-top: 4%; */
+  margin-top: 4%;
   background-size: ;
   background-repeat: no-repeat;
   background-image: url("../imgs/topics/topic-1.jpg");
@@ -132,7 +134,7 @@ body {
 
 .topic-mini {
   width: 100%;
-  /* margin-top: 60px; */
+  margin-top: 50px;
 }
 
 .topic-mini img {
