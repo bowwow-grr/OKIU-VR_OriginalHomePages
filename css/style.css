@@ -10,7 +10,7 @@ html {
   scroll-behavior: smooth;
 
   background-size: cover;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   /* background-image: url("../svgs/trianglify (26).svg"); */
 
   background-attachment: fixed;
@@ -25,8 +25,8 @@ body {
 
   background-size: cover;
   /* background-repeat: no-repeat; */
-  /* background-attachment: fixed; */
 
+  background-attachment: fixed;
   background-image: url("../svgs/trianglify (26).svg") !important;
 
 }
