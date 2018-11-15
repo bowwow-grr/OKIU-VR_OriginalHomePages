@@ -19,6 +19,7 @@ body {
 
 #header-top {
   position: fixed;
+  top: 0;
   width: 100%;
   background-color: rgba(134, 158, 190, 0.65);
   transition: 1s;
